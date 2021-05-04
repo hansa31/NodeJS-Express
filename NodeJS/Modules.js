@@ -2,7 +2,7 @@ const name1 = "John"
 const name2 = 'Peter'
 
 const sayHi = (name) => {
-    console.log(`Hello there ${name}`)
+    console.log("Hello there "+name)
 }
 
 sayHi("Susan")
