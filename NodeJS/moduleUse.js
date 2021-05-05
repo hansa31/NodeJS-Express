@@ -11,5 +11,5 @@ const name2 = 'Peter'
 module.exports = {name1,name2}      //objects to be exported from this module
 //console.log(module.exports) 
 
-console.log('In moduleUse.js')
+console.log('In moduleUse.js')      //this line gets printed -> that means this code runs when its used in another module
 
