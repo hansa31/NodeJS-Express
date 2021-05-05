@@ -9,7 +9,8 @@ console.log(first + '\n' + second);
 //to create a file
 writeFileSync('./conent/result.txt',`Here is the result : ${first} \n ${second}`)
 
-//to append
+//to append => add the flag
 writeFileSync(
     './conent/result.txt',`Here is the result : ${first} \n ${second}`,
-    {flag:'a'})
+    {flag:'a'}
+    )
