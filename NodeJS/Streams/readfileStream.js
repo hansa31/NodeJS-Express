@@ -1,4 +1,4 @@
-const {createReadStream} = require('fs')
+const {createReadStream} = require('fs')    //see the docs for more info
 
 const stream = createReadStream('./content/big.txt')
 
